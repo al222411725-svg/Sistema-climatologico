@@ -1,0 +1,86 @@
+body {
+font-family: 'Segoe UI', Arial, sans-serif;
+background: linear-gradient(135deg, #dee2e0 0%, #052e16 100%);
+color: #000000;
+margin: 0;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+min-height: 90vh;
+}
+header {
+
+text-align: center;
+margin-bottom: 30px;
+}
+.search-container {
+margin-bottom: 20px;
+}
+input {
+padding: 10px 15px;
+border-radius: 6px;
+border: 1px solid #dc5184;
+background: #97b3eb;
+color: #010101;
+width: 250px;
+}
+input::placeholder {
+color: #bbf7d0;
+}
+button {
+padding: 10px 20px;
+background: #4ade80;
+color: #3d5314;
+border: none;
+border-radius: 6px;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+button:hover {
+background: #22c55e;
+}
+.weather-card {
+background: #42cdb8;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+max-width: 480px;
+text-align: center;
+border: 1px solid #7fc99a;
+line-height: 1.6;
+}
+.description {
+font-size: 14px;
+background: #e5f3ea;
+padding: 8px;
+border-radius: 6px;
+}
+.geo-data {
+font-size: 13px;
+color: #bbf7d0;
+}
+.weather-data h4 {
+margin: 5px 0;
+color: #bbf7d0;
+text-transform: uppercase;
+
+
+
+letter-spacing: 1px;
+}
+.success-footer {
+margin-top: 20px;
+font-size: 12px;
+color: #bbf7d0;
+font-weight: bold;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 15px;
+}

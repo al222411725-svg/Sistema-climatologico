@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Climatologico - GARCIA ADRIAN GAEL JOSHUA</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>Sistema- Localizador -Climatologico  - UTVT</h1>
+    <p>Sistema Climatologico Elaborado en IPW..</p>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="text" id="city-input" placeholder="Introduce un lugar (ej. Monterrey, Tijuana)">
+      <button id="search-btn">Consultar </button>
+    </div>
+
+    <div id="weather-card" class="weather-card">
+      <p>Introduce una ubicación para desplegar las coordenadas y descripción geográfica.</p>
+    </div>
+
+    <div id="map"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
